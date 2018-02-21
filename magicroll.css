@@ -1,0 +1,43 @@
+
+body{
+    width:800;
+    margin:0 auto;
+
+}
+#mainSection{
+   position: relative;   
+   margin:50px;
+}
+
+#section1{
+    position: absolute;
+    background-image: url("magicroll.png");
+    top: 80px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    border: 3px ;
+    animation-name: spin;
+    animation-duration: 4s;
+}
+#section2{
+    position: absolute;
+    top: 310px;
+    left: 280px;
+    width: 240px;
+    height: 140px;
+    color:white;
+    text-align: center;
+}
+#button1{
+    position: absolute;
+    top:500px;
+    left:350px;
+    width:100px;
+    height:50px;
+    color:whitesmoke;
+    background-color: darkblue;
+}
+@keyframes spin{
+    100% {transform:rotate(360deg);}
+}
