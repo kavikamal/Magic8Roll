@@ -1,8 +1,12 @@
 
 body{
-    width:800;
+    width:800px;
     margin:0 auto;
-
+}
+h3{
+    text-align: center;
+    font-family: fantasy;
+    color:  darkblue;
 }
 #mainSection{
    position: relative;   
@@ -12,7 +16,7 @@ body{
 #section1{
     position: absolute;
     background-image: url("magicroll.png");
-    top: 80px;
+    top: 10px;
     left: 200px;
     width: 400px;
     height: 400px;
@@ -22,7 +26,7 @@ body{
 }
 #section2{
     position: absolute;
-    top: 310px;
+    top: 240px;
     left: 280px;
     width: 240px;
     height: 140px;
@@ -31,7 +35,7 @@ body{
 }
 #button1{
     position: absolute;
-    top:500px;
+    top:430px;
     left:350px;
     width:100px;
     height:50px;
